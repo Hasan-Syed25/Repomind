@@ -1,0 +1,4 @@
+.env
+github_env
+__pycache__
+*.pyc
