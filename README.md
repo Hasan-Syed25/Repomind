@@ -73,9 +73,11 @@ The application consists of two main components:
     Create a `.env` file in the root directory and add the necessary environment variables, such as:
 
     ```
-    QDRANT_HOST=<qdrant_host>
-    QDRANT_PORT=<qdrant_port>
-    OPENAI_API_KEY=<openai_api_key>
+    AZURE_API_KEY=""
+    AZURE_ENDPOINT=""
+    AZURE_DEPLOYMENT_NAME=""
+    QDRANT_API_KEY=""
+    QDRANT_API_URL=""
     ```
 
     Make sure to load the environment variables in both `app.py` and `frontend.py` using `load_dotenv()`.
